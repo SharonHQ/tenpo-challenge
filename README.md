@@ -29,12 +29,14 @@ Antes de ejecutar este proyecto, asegúrate de tener instalado:
 
 2. **Configura las variables de entorno:**
    ```bash
-   # Copia el archivo de ejemplo
+   # Copia el archivo de ejemplo (REQUERIDO)
    cp .env.example .env
    
-   # Edita .env si necesitas cambiar la configuración
-   # (Los valores por defecto funcionan para desarrollo)
+   # Los valores por defecto funcionan para desarrollo
+   # Edita .env solo si necesitas cambiar la configuración
    ```
+   
+   **Nota:** El archivo `.env` no está en el repositorio por seguridad y debe ser creado localmente.
 
 3. **Instala las dependencias:**
    ```bash

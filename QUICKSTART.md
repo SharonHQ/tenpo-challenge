@@ -2,12 +2,14 @@
 
 Ejecuta la aplicación en 4 simples pasos:
 
-## 1️⃣ Configurar Variables de Entorno (Opcional)
+## 1️⃣ Configurar Variables de Entorno (REQUERIDO)
 
 ```bash
-# Copia el archivo de ejemplo (opcional, ya hay valores por defecto)
+# Copia el archivo de ejemplo
 cp .env.example .env
 ```
+
+**Importante:** Este paso es necesario. El archivo `.env` no está incluido en el repositorio por seguridad.
 
 ## 2️⃣ Instalar Dependencias
 
